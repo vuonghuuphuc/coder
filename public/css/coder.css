@@ -1,0 +1,16 @@
+.break-word{
+    word-break: break-word;
+}
+textarea {
+    resize: none;
+}
+body{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Lato","Ubuntu","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #efefef;
+}
+#footer a {
+   display: none;
+}
