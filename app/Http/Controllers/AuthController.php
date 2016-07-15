@@ -36,7 +36,7 @@ class AuthController extends Controller
             return redirect()->back();
         }
 
-        $ipInfo = getIpInfo($request->getClientIp());
+                $ipInfo = getIpInfo($request->getClientIp());
 
         $identifier = str_random(128);
 
